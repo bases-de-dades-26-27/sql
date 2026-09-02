@@ -1,6 +1,6 @@
 ![](/img/portada.png)
 
-# 📚 Índex del curs
+# <ins>Índex del curs</ins>
 
 ## Teoria
 - **1. SQL-DML Consultes**
