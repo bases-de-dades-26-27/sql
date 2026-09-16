@@ -4,6 +4,7 @@
 
 ## Teoria
 - **1. SQL-DML Consultes**
+    - [1.0 Conceptes inicials](/teoria/inici.md)
     - [1.1 Sentències bàsiques](/teoria/sql_select_from_basics.md)
     - [1.2 Condicions](/teoria/sql_where_order_limit.md)
     - [1.3 Joins](/teoria/joins.md)
