@@ -1,4 +1,4 @@
-# 🎮 SQL Bàsic (modo “zen”): `SELECT` + `FROM` + àlies
+# SQL Bàsic: `SELECT` + `FROM` + àlies
 
 Aquesta és la **xuleta minimalista** per començar a moure’t per SQL. Només el nucli: **què vull** (`SELECT`) i **d’on** ho trec (`FROM`). I uns **àlies** per fer-ho més maco.
 
@@ -205,11 +205,11 @@ FROM gimnas;
 
 (12 rows)
 
-> ⚠️ Recorda que `DISTINCT` s’aplica a la **combinació** de columnes llistades.
+> Recorda que `DISTINCT` s’aplica a la **combinació** de columnes llistades.
 
 ---
 
-## 5) Trucs ràpids de pro (sense sortir del tema)
+## 5) Trucs ràpids
 
 - **Ordre de les columnes**: el resultat **respecta** l’ordre que poses al `SELECT`.  
 - **Duplicar una columna amb nom diferent** (per comparacions visuals):  
@@ -233,7 +233,7 @@ FROM gimnas;
 (10 rows)
 
 
-- **Comentar la teva query** (el profe t’estimarà més):
+- **Comentar la teva query**:
   ```sql
   -- Aquest SELECT mostra només noms i nivells
   SELECT nom, nivell
