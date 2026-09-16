@@ -121,7 +121,7 @@ SELECT p.nom, p.nivell
 FROM pokemon p;
 ```
 
-> 💡 L’àlies de taula és útil per **abreujar** (`pokemon` → `p`) i per **qualificar** columnes quan tens noms semblants.
+> L’àlies de taula és útil per **abreujar** (`pokemon` → `p`) i per **qualificar** columnes quan tens noms semblants.
 
 ---
 
