@@ -1,4 +1,4 @@
-# **GROUP BY i HAVING en SQL: Guia amb Exemples Épics i Trampes a Evitar**
+# **GROUP BY i HAVING en SQL**
 
 Les clàusules **GROUP BY** i **HAVING** són per **agrupar dades** i **filtrar grups** en SQL. Són essencials per fer resums, com comptar quants Pokémon té cada entrenador o trobar els millors gimnasos.
 
