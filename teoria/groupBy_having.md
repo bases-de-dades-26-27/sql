@@ -101,7 +101,7 @@ GROUP BY e.id_entrenador, e.nom_entrenador
 HAVING MAX(p.nivell) > 40;
 ```
 
-**Resultat (simulat)**:
+**Resultat**:
 
 | nom_entrenador | nivell_mitja | nivell_max |
 |----------------|--------------|------------|
