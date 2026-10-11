@@ -33,6 +33,7 @@ FROM pokemon p;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nivell_mitja |
 |------------|--------------|
 | Bulbasaur  | 6.0          |
@@ -56,6 +57,7 @@ SELECT nom_entrenador,
 FROM entrenador;
 ```
 **Taula inicial**:
+
 | nom_entrenador | lema             |
 |----------------|------------------|
 | Red            | Ser el millor!   |
@@ -64,6 +66,7 @@ FROM entrenador;
 | NULL           | NULL             |
 
 **Resultat (simulat)**:
+
 | nom_entrenador | lema             | lema_coalesce    |
 |----------------|------------------|------------------|
 | Red            | Ser el millor!   | Ser el millor!   |
@@ -87,6 +90,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | descripcio_completa    |
 |------------|------------------------|
 | Bulbasaur  | Bulbasaur de Kanto     |
@@ -117,6 +121,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nivell | nivell_ceil | nivell_floor |
 |------------|--------|-------------|--------------|
 | Bulbasaur  | 12     | 2           | 1            |
@@ -139,6 +144,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nom_curt |
 |------------|----------|
 | Bulbasaur  | Bul      |
@@ -163,6 +169,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nom_majuscules | nom_minuscules |
 |------------|----------------|----------------|
 | Bulbasaur  | BULBASAUR      | bulbasaur      |
@@ -185,6 +192,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nova_descripcio               |
 |------------|-------------------------------|
 | Bulbasaur  | Un Criatura planta molt lleial |
@@ -207,6 +215,7 @@ FROM entrenador;
 ```
 
 **Resultat (simulat)**:
+
 | nom_entrenador | longitud_lema |
 |----------------|---------------|
 | Red            | 12            | -- 'Ser el millor!'
@@ -229,6 +238,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | desc_curt |
 |------------|-----------|
 | Bulbasaur  | Un Po     |
@@ -251,6 +261,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | posicio_pokemon |
 |------------|-----------------|
 | Bulbasaur  | 4               | -- ‘Un Pokémon...’
@@ -274,6 +285,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nivell | classificacio |
 |------------|--------|---------------|
 | Bulbasaur  | 12     | Normal        |
@@ -301,6 +313,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | nivell | rang         |
 |------------|--------|--------------|
 | Bulbasaur  | 12     | Principiant  |
@@ -323,6 +336,7 @@ FROM entrenador;
 ```
 
 **Resultat (simulat)**:
+
 | nom_entrenador | hash_nom                                  |
 |----------------|-------------------------------------------|
 | Red            | a4d3... (hash de 40 caràcters)            |
@@ -345,6 +359,7 @@ FROM pokemon;
 ```
 
 **Resultat (simulat)**:
+
 | nom        | comparacio         |
 |------------|--------------------|
 | Bulbasaur  | No és PIKACHU      |
@@ -378,6 +393,7 @@ ORDER BY p.nivell * p.experiencia DESC;
 ```
 
 **Resultat (simulat)**:
+
 | nom_entrenador | nom_pokemon | descripcio                     | nivell_arrodonit | nivell_experiencia | puntuacio |
 |----------------|-------------|--------------------------------|------------------|--------------------|-----------|
 | Blue           | Charizard   | Charizard - Desafiar tothom    | 78               | Épic               | 608400    |

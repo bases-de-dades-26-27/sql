@@ -179,6 +179,7 @@ GROUP BY e.id_entrenador, e.nom_entrenador;
 ```
 
 **Resultat**:
+
 | nom_entrenador | total_pokemon |
 |----------------|---------------|
 | Red            | 3             |
@@ -212,6 +213,7 @@ GROUP BY e.id_entrenador, e.nom_entrenador;
 ```
 
 **Resultat**:
+
 | nom_entrenador | total |
 |----------------|-------|
 | Red            | 3     |
@@ -247,6 +249,7 @@ ORDER BY total_pokemon DESC;
 ```
 
 **Resultat**:
+
 | nom_entrenador | total_pokemon | nivell_mitja |
 |----------------|---------------|--------------|
 | Blue           | 3             | 38.0         |

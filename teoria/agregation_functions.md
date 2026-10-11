@@ -67,6 +67,7 @@ GROUP BY e.id_entrenador, e.nom_entrenador;
 ```
 
 **Resultat (erroni)**:
+
 | nom_entrenador | total |
 |----------------|-------|
 | Red            | 3     |
@@ -191,6 +192,7 @@ GROUP BY e.id_entrenador, e.nom_entrenador;
 ```
 
 **Resultat**:
+
 | nom_entrenador | primera_captura     |
 |----------------|---------------------|
 | Red            | 2025-01-15 10:30:00 |

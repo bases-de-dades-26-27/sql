@@ -139,6 +139,7 @@ FROM pokemon p1
 JOIN pokemon p2
   ON p1.id_pokemon = p2.id_previa;
 ```
+
 ---
 
 ## 5) BONUS: JOIN + `WHERE` + `ORDER BY` + `LIMIT`

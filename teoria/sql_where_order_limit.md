@@ -24,7 +24,8 @@ Operadors que pots usar (sense funcions):
 SELECT nom, nivell
 FROM pokemon
 WHERE nivell = 50;
-````
+```
+
 | nom       | nivell |
 | --------- | -----: |
 | Gengar    |     50 |
@@ -41,7 +42,8 @@ WHERE nivell = 50;
 SELECT nom, nivell
 FROM pokemon
 WHERE nivell BETWEEN 20 AND 40;
-````
+```
+
 | nom        | nivell |
 | ---------- | -----: |
 | Ivysaur    |     24 |
@@ -62,7 +64,8 @@ WHERE nivell BETWEEN 20 AND 40;
 SELECT nom, regio
 FROM pokemon
 WHERE regio IN ('Kanto', 'Johto');
-````
+```
+
 | nom        | regio |
 | ---------- | ----- |
 | Bulbasaur  | Kanto |
@@ -83,7 +86,8 @@ WHERE regio IN ('Kanto', 'Johto');
 SELECT nom
 FROM pokemon
 WHERE nom LIKE 'Pi%';
-````
+```
+
 | nom       |
 | --------- |
 | Pikachu   |
@@ -104,7 +108,8 @@ WHERE nom LIKE 'Pi%';
 SELECT nom
 FROM pokemon
 WHERE id_entrenador IS NULL;
-````
+```
+
 | nom        |
 | ---------- |
 | Onix       |
@@ -124,6 +129,7 @@ SELECT nom, nivell, regio
 FROM pokemon
 WHERE (regio = 'Kanto' OR regio = 'Johto') AND nivell >= 30;
 ```
+
 | nom        | nivell | regio |
 | ---------- | -----: | ----- |
 | Charizard  |     78 | Kanto |
@@ -167,7 +173,8 @@ ORDER BY columna1 [ASC|DESC], columna2 [ASC|DESC];
 SELECT nom, nivell
 FROM pokemon
 ORDER BY nivell ASC;
-````
+```
+
 | nom        | nivell |
 | ---------- | -----: |
 | Charmander |      8 |
@@ -188,7 +195,8 @@ ORDER BY nivell ASC;
 SELECT nom, nivell
 FROM pokemon
 ORDER BY nivell DESC, nom ASC;
-````
+```
+
 | nom        | nivell |
 | ---------- | -----: |
 | Charizard  |     78 |
@@ -212,6 +220,7 @@ FROM pokemon
 WHERE nivell >= 10
 ORDER BY nivell_proper DESC, nom;
 ```
+
 | nom        | nivell_proper |
 | ---------- | ------------: |
 | Charizard  |            79 |
@@ -243,7 +252,8 @@ SELECT nom, nivell
 FROM pokemon
 ORDER BY nivell DESC
 LIMIT 5;
-````
+```
+
 | nom       | nivell |
 | --------- | -----: |
 | Charizard |     78 |
@@ -261,6 +271,7 @@ FROM pokemon
 ORDER BY nivell DESC
 LIMIT 5 OFFSET 5;
 ```
+
 | nom        | nivell |
 | ---------- | -----: |
 | Charmeleon |     28 |
@@ -283,6 +294,7 @@ WHERE regio = 'Kanto' AND nivell >= 30
 ORDER BY nivell DESC, nom
 LIMIT 10;
 ```
+
 | nom       | nivell | regio |
 | --------- | -----: | ----- |
 | Charizard |     78 | Kanto |
@@ -293,6 +305,7 @@ LIMIT 10;
 | Raichu    |     30 | Kanto |
 
 (6 rows)
+
 ---
 
 ## 5) Errors típics

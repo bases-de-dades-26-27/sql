@@ -1,0 +1,11 @@
+# Aspecte comú de tots els apunts (es defineix al repo de la portada)
+remote_theme: bases-de-dades-26-27/bases-de-dades-26-27.github.io
+plugins:
+  - jekyll-remote-theme
+
+# Dades d'aquest bloc
+ba: BA2
+ba_nom: "SQL: consulta i modificació de dades"
+ba_ra: RA3 i RA4
+ba_hores: 44
+lang: ca

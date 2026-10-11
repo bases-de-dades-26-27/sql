@@ -62,6 +62,7 @@ FROM pokemon;
 SELECT nom, nivell + 1 AS nivell_proper, 'Kanto' AS regio_defecte
 FROM pokemon;
 ```
+
 |    nom      | nivell_proper  | regio_defecte |
 |-------------|---------------:|---------------|
 |Bulbasaur    |             13 | Kanto         |
@@ -82,6 +83,7 @@ FROM pokemon;
 SELECT *
 FROM pokemon;
 ```
+
 | id_pokemon |    nom     | nivell | regio | id_entrenador |
 |-----------:|------------|-------:|-------|--------------:|
 |          1 | Bulbasaur  |     12 | Kanto |            101|
@@ -139,6 +141,7 @@ FROM pokemon;
 SELECT nom nom_pokemon, nivell lvl
 FROM pokemon;
 ```
+
 | nom_pokemon | lvl |
 |-------------|----:|
 | Bulbasaur   |  12 |
@@ -166,6 +169,7 @@ Treure **valors únics** d’una o més columnes.
 SELECT DISTINCT tipus
 FROM tipus_pokemon;
 ```
+
 |    tipus   |
 |------------|
 | Normal     |
@@ -188,6 +192,7 @@ FROM tipus_pokemon;
 SELECT DISTINCT regio, ciutat
 FROM gimnas;
 ```
+
 |  regio   |   ciutat  |
 |----------|-----------|
 | Kanto    | Pewter    |
@@ -217,6 +222,7 @@ FROM gimnas;
   SELECT nom, nom AS nom_copia
   FROM pokemon;
 ```
+
 |     nom      |  nom_copia  |
 |--------------|-------------|
 | Bulbasaur    | Bulbasaur   |
