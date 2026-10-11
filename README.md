@@ -12,6 +12,7 @@
     - [1.5 Agrupació](teoria/groupBy_having.md)
     - [1.6 Funcions d'agregació](teoria/agregation_functions.md)
     - [1.7 Funcions avançades](teoria/funcions_pro.md)
+<!--
     - [1.8 Subconsultes](teoria/subconsultes.md)
     - [1.9 UNION](teoria/union.md)
 - **2. SQL-DML Modificació de dades i transaccions**
@@ -55,4 +56,4 @@
        
 - **5. SQL Extensió procedimental**
     - 5.1 Proposta de solució d'exercicis
-        
+-->
